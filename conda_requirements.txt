@@ -1,0 +1,7 @@
+# This file may be used to create an environment using:
+# $ conda create --name <env> --file <this file>
+# platform: linux-64
+beautifulsoup4=4.7.1=py37_1001
+camelot-py=0.7.2=py37_0
+pandas=0.24.2=py37hf484d3e_0
+requests=2.21.0=py37_1000
