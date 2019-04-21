@@ -60,8 +60,7 @@ async def download_pdfs(
                 (
                     datetime.datetime(
                         *email.utils.parsedate(response.headers["Last-Modified"])[:6]
-                    )
-                    - start_epoch
+                    ) - start_epoch
                 ).total_seconds()
             )
             filename = get_valid_filename(url.split("/")[-1])
